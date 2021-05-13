@@ -13,7 +13,7 @@ console.log('client side is running');
         messageOne.textContent = 'Loading';
         messageTwo.textContent = '...';
 
-        fetch(`http://localhost:3000/weather?address=${address}`)
+        fetch(`/weather?address=${address}`)
     .then( res => {
         return res.json()
     })
