@@ -5,7 +5,7 @@ const forecast = require('./utils/forecast');
 const geocode = require('./utils/geocode')
 
 const app = express();
-
+const name = "sam";
 //set up handlebars
 app.set('view engine', 'hbs');
 app.set('views', __dirname + '/../templates/views');
